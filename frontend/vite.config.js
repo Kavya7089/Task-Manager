@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
 
     proxy: {
-      '/api': 'http://localhost:5002',
+      '/api': 'https://task-manager-backend-urxk.onrender.com',
     },
   },
   optimizeDeps: {
